@@ -60,17 +60,8 @@ Intermediary Files:
 
 - fire_data.csv: Wildfire incidents that occured between 1963-2023 that were less than 1250 miles from Gillette, Wyoming.  
 
-|Key name|Data Type|Description|
-|---|---|---|
-|`project`|`string`|the name of the project|
-|`article`|`string`|the article(s) you want to retrieve data for|
-|`granularity`|`string`|the granularity of data to return; "daily" or "monthly"|
-|`timestamp`|`string`|The timestamp of the returned datapoint|
-|`agent`|`string`|The type of agent that is considered when returning the number of views|
-|`views`|`int`|The number of page views for the article at a timestamp that falls within the range for the given agent type|
+The data files for the assigment were large in size and therefore not uploaded. However, these can be extracted using the links above and from the code notebook.
 
 ## Special Considerations
 - Step 1.6 in the notebook takes a few hours to run. In the json file, some rings are labelled as 'curverings' which may interrupt the block of code. As these records are less than 50 in a file with over 135,000 records, these have been excluded in this analysis but may be considered by anyone looking to reproduce this research. 
-
-## Results
 
