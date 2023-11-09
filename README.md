@@ -60,8 +60,20 @@ Intermediary Files:
 
 - fire_data.csv: Wildfire incidents that occured between 1963-2023 that were less than 1250 miles from Gillette, Wyoming.  
 
-The data files for the assigment were large in size and therefore not uploaded. However, these can be extracted using the links above and from the code notebook.
+The data files for the assigment were large in size (over 3 GB and 700 mb) and therefore not uploaded. However, these can be extracted using the links above and from the [code notebook](https://github.com/MehjabeenZ/data-512-project/blob/main/code/Analysis%20of%20Wildfires.ipynb). 
+
+The table below describes some relevant data fields in the fire_data.csv file:
+
+|Column|Description|
+|---|---|
+|`OBJECTID`|Unique identification for the table row|
+|`USGS_Assigned_ID`|A unique ID assigned by the USGS creators of the dataset to the focal fire.|
+|`Assigned_Fire_Type`|Assigned in the following order of dominance: Wildfire, Likely Wildfire, Unknown - Likely Wildfire, Prescribed Fire, Unknown - Likely Prescribed Fire|
+|`Fire_Year`|The calendar year when the dataset creators determined the fire occurred.|
+|`GIS_Acres`|The GIS calculated acres of the fire polygon calculated by using the Calculate Geometry tool in ArcGIS Pro.|
+|`Distance`|Shortest distance in miles of the perimeter of the fire to Gillette.|
 
 ## Special Considerations
 - Step 1.6 in the notebook takes a few hours to run. In the json file, some rings are labelled as 'curverings' which may interrupt the block of code. As these records are less than 50 in a file with over 135,000 records, these have been excluded in this analysis but may be considered by anyone looking to reproduce this research. 
+- The United States Environmental Protection Agency (US EPA) was created in 1973 and began installing air quality monitoring stations in the 1980s. Further, of 3000+ counties in the US, the EPA has vetted monitoring stations in only 2000 of them. Therefore, there are quite a few null values when trying to extract and use the AQI data.
 
