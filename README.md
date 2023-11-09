@@ -51,8 +51,8 @@ This project has the following structure:
 ## Data 
 
 Source Files:
-- [Wildfire dataset](https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81)
-- [FIPS](https://www.census.gov/library/reference/code-lists/ansi.html)
+- [Wildfire dataset](https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81) This dataset was collected and aggregated by the US Geological Survey.  
+- [FIPS](https://www.census.gov/library/reference/code-lists/ansi.html) The Federal Information Processing Standard Publication (FIPS) is a five-digit Federal Information Processing Standards code which uniquely identified counties and county equivalents in the United States, certain U.S. possessions, and certain freely associated states.
 - [Sample Notebook for Calculating Geo Distances](https://drive.google.com/file/d/1qNI6hji8CvDeBsnLDAhJXvaqf2gcg8UV/view?usp=drive_link). This code is provided under the [Creative Commons](https://creativecommons.org) [CC-BY license](https://creativecommons.org/licenses/by/4.0/). Revision 1.2 - August 14, 2023
 - [Sample Notebook for Extracting Air Quality Data](https://drive.google.com/file/d/1bxl9qrb_52RocKNGfbZ5znHVqFDMkUzf/view?usp=drive_link). This code is provided under the [Creative Commons](https://creativecommons.org) [CC-BY license](https://creativecommons.org/licenses/by/4.0/). Revision 1.2 - August 14, 2023
 
