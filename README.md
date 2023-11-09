@@ -45,8 +45,8 @@ This project has the following structure:
 ## Steps to Reproduce This Research
 
 1. Install the required resources as listed in the Resources header above. 
-2. Run the Analysis of Wildfires.ipynb file.
-3. Analyze results.
+2. Run the Analysis of Wildfires.ipynb file. A valid email address will be required for one step. 
+3. Analyze and review results. 
 
 ## Data 
 
